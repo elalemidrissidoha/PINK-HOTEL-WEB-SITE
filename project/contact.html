@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Our description" content="welcome to the most Pink hotel in Casablanca">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        background-image: url('reservation.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+          }
+</style>
+    <title>Pink Vibe Only Hotel</title>
+</head>
+<body>
+    <header>
+      <nav id="navbar">
+          <div class="container">
+          <h1 class="logo"><a href="index.html">P!NK</a></h1>
+
+      <ul>
+          <li><a class="now" href="index.html">Home</a> </li>
+          <li><a href="about.html">Our Restaurant</a> </li>
+          <li><a href="contact.html">Reservation</a> </li>
+     </ul>
+    </div>
+    </nav>
+</header>
+<section id="contact-form" class="py-3">
+    <div class="container">
+        <h1 class="l-heading-form"><br><span class="text-primary">contact us to reserve</span></h1>
+        <p><strong>Please fill out the form below:</strong></p>
+        <form method="post" action="send.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="nombre de femmes">Nombre de femmes</label>
+                <input type="number" name="nbf" min="0" max="100" step="1" >
+            </div>
+            <div class="form-group">
+                <label for="message">message</label>
+                <textarea type="message" name="message" id="message"></textarea>
+            </div>
+
+            <button class="btn" name="btn">Submit</button>
+
+
+        </form>
+    </div>
+    <br>
+</section>
+<section id="contact-info" class="bg-dark">
+    <div class="container">
+
+            <div class="box bg-light">
+                <h3><strong>LOCATION</strong></h3>
+                <p>Casablanca,la villette khalil el khatib</p>
+            </div>
+            <div class="box bg-primary">
+                <h3><strong>PHONE NUMBER</strong></h3>
+                <p>+212 695555500 </p>
+            </div>
+            <div class="box bg-light">
+                <h3><strong>EMAIL ADRESS</strong></h3>
+                <p> pinkhotelonly@gmail.com</p>
+            </div>
+
+    </div>
+
+</section>
+<footer id="main-footer">
+    <p>Hotel Pink Vibe Only &copy; 2021, All Rights Reserved</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+/*all of my work */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow:auto;
+    padding: 0 20px;
+}
+.text-primary{
+    color:#fff;
+}
+.lead{
+    font-size: 30px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background:grey ;
+    padding:13px 20px;
+    border:none;
+}
+.btn:hover{
+    color:lightcoral;
+    background:#FFE4E1 ;
+}
+.btn-light{
+    color: white;
+    background:grey ;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background: #333;
+    color: #fff;
+}
+.bg-primary{
+    background:pink;
+    color: #fff;
+}
+
+/* some main styling*/
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+   color:peachpuff;
+   text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+#navbar{
+    background:#FFE4E1;
+    color:grey;
+    overflow: auto;
+}
+#navbar a {
+    color: hotpink;
+}
+#navbar h1{
+    float:left;
+    padding-top: 20px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,#navbar ul li a.now{
+    background:hotpink ;
+    color:#FFE4E1 ;
+}
+/* Showcase*/
+body{
+  background-image: url(./room.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+/*#showcase{
+    background: url('romm.jpg') no-repeat center center/cover;
+    height:850px;*/
+}
+#showcase .showcase-content{
+    color:silver;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height:1.2em ;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 2em;
+}
+/*home info*/
+#home-info{
+    height:400px;
+}
+/* #home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/r3.jpg') no-repeat;
+    min-height: 100%;
+} */
+#home-info .info-content{
+    /*float: right;*/
+/* width: 50%;*/
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding:50px 30px;
+}
+
+/* options sections */
+.box{
+    float:left;
+    width : 33.3%;
+    padding:50px;
+    text-align: center;
+
+}
+
+.box i{
+    margin-bottom: 20px;
+}
+#main-footer{
+    text-align: center;
+    background-color:pink;
+    padding: 40px;
+
+}
+/*ABOUUUUUUUUUUT*/
+
+.vid{
+    float:right;
+    padding-top: 70px;
+    width:480px;
+     height:785px;
+
+}
+.menu{
+    background-color:lavenderblush;
+    margin-bottom:64px;
+    padding-top: 20px;
+}
+.menu h1{
+    color:#383838;
+}
+.menu p{
+    color:dimgrey;
+}
+.title{
+    color:black;
+    text-align: center;
+}
+/*contaaaaaaaact page*/
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px hotpink solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+#contact-form input,
+#contact-form textarea{
+    outline:none;
+    border-color: pink;
+}
